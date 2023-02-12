@@ -10,7 +10,7 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Blaze Stuff
-BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := Shikhar
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
